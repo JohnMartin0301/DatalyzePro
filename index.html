@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DatalyzePro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="chart-container">
+            <div id="canvas-container">
+                <canvas id="myChart"></canvas>
+            </div>
+        </div>
+        
+        <div class="column-selector" id="column-selector">
+            <h3>Select columns to display (first column will be used as labels):</h3>
+            <div class="column-options" id="column-options"></div>
+            <button onclick="applyColumnSelection()" class="btn" style="margin-top: 10px;">Apply Selection</button>
+        </div>
+        
+        <div class="controls">
+            <select id="chart-type" class="select">
+                <option value="bar">Bar</option>
+                <option value="pie">Pie</option>
+                <option value="line">Line</option>
+                <option value="radar">Radar</option>
+                <option value="doughnut">Doughnut</option>
+            </select>
+            <input type="text" id="label-input" class="input" placeholder="Label" required>
+            <input type="number" id="data-input" class="input" placeholder="Data" required>
+            <button onclick="addData()" class="btn">Add Data</button>
+            <button onclick="updateChartType()" class="btn">Change Chart</button>
+            <div class="file-upload-container">
+                <input type="file" id="file-input" accept=".csv,.xlsx,.xls" style="display: none;" onchange="handleFileUpload(event)">
+                <button onclick="document.getElementById('file-input').click()" class="btn btn-upload">Upload CSV/Excel</button>
+                <button onclick="downloadChart()" class="btn btn-download">Download Chart</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
