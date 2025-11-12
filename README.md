@@ -29,7 +29,7 @@ DatalyzePro automates the chart generation process, enabling users to upload mul
 ## 🚀 Demo
 
 ### Live Demo
-[View Live Demo](#) *(https://johnmartin0301.github.io/DatalyzePro/)*
+[View Live Demo](https://johnmartin0301.github.io/DatalyzePro/)
 
 ## 🛠️ Tech Stack
 
