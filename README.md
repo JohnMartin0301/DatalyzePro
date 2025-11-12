@@ -282,7 +282,7 @@ SOFTWARE.
 ## 👤 Author
 
 **[John Martin]**
-- GitHub: [@yourusername](https://github.com/JohnMartin0301)
+- GitHub: [@JohnMartin0301](https://github.com/JohnMartin0301)
 
 ---
 
@@ -317,7 +317,7 @@ If you found this project helpful, please consider:
 
 **Made with ⚛ and JavaScript**
 
-[Report Bug](https://github.com/JohnMartin0301/datalyze-pro/issues) • [Request Feature](https://github.com/JohnMartin0301/datalyze-pro/issues) • [View Demo]([#](https://johnmartin0301.github.io/DatalyzePro/))
+[Report Bug](https://github.com/JohnMartin0301/datalyze-pro/issues) • [Request Feature](https://github.com/JohnMartin0301/datalyze-pro/issues) • [View Demo]((https://johnmartin0301.github.io/DatalyzePro/))
 
 </div>
 
